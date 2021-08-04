@@ -644,9 +644,7 @@ main {
     .content-text {
         font-size: 25px;
     }
-    main {
-        background-size: contain;
-    }
+    
     .main__card-bottom__img {
         left: 140px;
     }
