@@ -42,7 +42,7 @@ html {
 }
 
 body {
-    min-width: 1180px;
+    min-width: 1260px;
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -57,13 +57,16 @@ body {
     margin-right: auto;
 } 
 
-header {
-    padding-top: 73px;
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    background: #3cb0b4;
 }
 
 .site-header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -98,7 +101,7 @@ header {
 }
 
 .site-headder__img {
-    margin-top: 75px;
+    margin-top: 174px;
     text-align: center;
 }
 
@@ -537,6 +540,88 @@ main {
     color: #fff;
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar-list__link {
+        font-size: 30px;
+    }
+    .site-hero__title {
+        font-size: 45px;
+    }
+    .site-hero__text {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    .site-hero__link {
+        font-size: 24px;
+    }
+    .main-card__title {
+        font-size: 26px;
+    }
+    .main-card__text {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .middle-card__content {
+        margin-left: 40px;
+    }
+    .middle-card__content-title {
+        font-size: 45px;
+    }
+    .middle-card__content-text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .item-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .item-img {
+        width: 41px;
+        height: 41px;
+    }
+    .content-name {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .content-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .main__form-title {
+        font-size: 40px;
+    }
+    .main__form-text {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .content-address {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .footer__content-tel {
+        font-size: 18px;
+    }
+    .item-link {
+        font-size: 19px;
+    }
+    .footer-list__link {
+        width: 35px;
+        height: 35px;
+    }
+    .middle-card__content-link {
+        font-size: 28px;
+    }
+    .middle-card__content-link::after {
+        width: 30px;
+        height: 30px;
+        margin-top: -26px;
+        margin-left: 269px;
+    }
+    .content-link__hr {
+        width: 283px;
+    }
+}
+
 
 @media only screen and (max-width: 425px) {
     .navbar-list__link {
@@ -725,3 +810,4 @@ main {
     }
 
 }
+
